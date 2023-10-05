@@ -1,0 +1,25 @@
+# This is a generated file; do not edit or check into version control.
+connectivity_plus=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/connectivity_plus-4.0.2/
+flutter_inappwebview=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/flutter_inappwebview-5.8.0/
+flutter_native_splash=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/flutter_native_splash-2.3.3/
+path_provider=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/path_provider-2.1.1/
+path_provider_android=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/path_provider_android-2.2.0/
+path_provider_foundation=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/path_provider_foundation-2.3.1/
+path_provider_linux=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/path_provider_linux-2.2.1/
+path_provider_windows=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/path_provider_windows-2.2.1/
+shared_preferences=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences-2.2.1/
+shared_preferences_android=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_android-2.2.1/
+shared_preferences_foundation=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_foundation-2.3.4/
+shared_preferences_linux=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_linux-2.3.1/
+shared_preferences_web=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_web-2.2.1/
+shared_preferences_windows=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_windows-2.3.1/
+url_launcher=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/url_launcher-6.1.14/
+url_launcher_android=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_android-6.1.0/
+url_launcher_ios=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_ios-6.1.5/
+url_launcher_linux=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_linux-3.0.6/
+url_launcher_macos=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_macos-3.0.7/
+url_launcher_web=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_web-2.0.20/
+url_launcher_windows=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_windows-3.0.8/
+webview_flutter=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/webview_flutter-4.4.1/
+webview_flutter_android=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/webview_flutter_android-3.12.0/
+webview_flutter_wkwebview=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/webview_flutter_wkwebview-3.9.1/
