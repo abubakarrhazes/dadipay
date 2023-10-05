@@ -1,12 +1,15 @@
 # This is a generated file; do not edit or check into version control.
 connectivity_plus=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/connectivity_plus-4.0.2/
 flutter_inappwebview=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/flutter_inappwebview-5.8.0/
-flutter_native_splash=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/flutter_native_splash-2.3.3/
 path_provider=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/path_provider-2.1.1/
 path_provider_android=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/path_provider_android-2.2.0/
 path_provider_foundation=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/path_provider_foundation-2.3.1/
 path_provider_linux=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/path_provider_linux-2.2.1/
 path_provider_windows=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/path_provider_windows-2.2.1/
+permission_handler=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/permission_handler-11.0.1/
+permission_handler_android=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/permission_handler_android-11.0.5/
+permission_handler_apple=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/permission_handler_apple-9.1.4/
+permission_handler_windows=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/permission_handler_windows-0.1.3/
 shared_preferences=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences-2.2.1/
 shared_preferences_android=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_android-2.2.1/
 shared_preferences_foundation=/home/alrhazes/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_foundation-2.3.4/
