@@ -1,0 +1,216 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dadipay_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:2:5-67
+11-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:3:5-79
+12-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:3:22-76
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:4:5-65
+13-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:4:22-62
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:5:5-71
+14-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:5:22-68
+15
+16    <queries>
+16-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
+17        <intent>
+17-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+18            <action android:name="android.support.customtabs.action.CustomTabsService" />
+18-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-90
+18-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-87
+19        </intent>
+20    </queries>
+21
+22    <permission
+22-->[androidx.core:core:1.10.1] /home/alrhazes/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+23        android:name="com.example.dadipay_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.10.1] /home/alrhazes/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.10.1] /home/alrhazes/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.example.dadipay_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.10.1] /home/alrhazes/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.10.1] /home/alrhazes/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+27
+28    <application
+29        android:name="android.app.Application"
+29-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:10:9-42
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.10.1] /home/alrhazes/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+31        android:icon="@mipmap/launcher_icon"
+31-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:11:9-45
+32        android:label="dadipay_app" >
+32-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:9:9-36
+33        <activity
+33-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:12:9-32:20
+34            android:name="com.example.dadipay_app.MainActivity"
+34-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:13:13-41
+35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:17:13-163
+36            android:exported="true"
+36-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:14:13-36
+37            android:hardwareAccelerated="true"
+37-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:18:13-47
+38            android:launchMode="singleTop"
+38-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:15:13-43
+39            android:theme="@style/LaunchTheme"
+39-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:16:13-47
+40            android:windowSoftInputMode="adjustResize" >
+40-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:19:13-55
+41
+42            <!--
+43                 Specifies an Android theme to apply to this Activity as soon as
+44                 the Android process has started. This theme is visible to the user
+45                 while the Flutter UI initializes. After that, this theme continues
+46                 to determine the Window background behind the Flutter UI.
+47            -->
+48            <meta-data
+48-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:24:13-27:17
+49                android:name="io.flutter.embedding.android.NormalTheme"
+49-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:25:15-70
+50                android:resource="@style/NormalTheme" />
+50-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:26:15-52
+51
+52            <intent-filter>
+52-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:28:13-31:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:29:17-68
+53-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:29:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:30:17-76
+55-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:30:27-74
+56            </intent-filter>
+57        </activity>
+58        <!--
+59             Don't delete the meta-data below.
+60             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+61        -->
+62        <meta-data
+62-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:35:9-37:33
+63            android:name="flutterEmbedding"
+63-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:36:13-44
+64            android:value="2" />
+64-->/home/alrhazes/Documents/dadipay_app/android/app/src/main/AndroidManifest.xml:37:13-30
+65
+66        <activity
+66-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:47
+67            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+67-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-104
+68            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+68-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-137
+69            android:exported="false"
+69-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+70            android:theme="@style/AppTheme" />
+70-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-44
+71        <activity
+71-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-24:55
+72            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+72-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-112
+73            android:exported="false"
+73-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
+74            android:theme="@style/ThemeTransparent" />
+74-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-52
+75        <activity
+75-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-28:55
+76            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+76-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-106
+77            android:exported="false"
+77-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-37
+78            android:theme="@style/ThemeTransparent" />
+78-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-52
+79        <activity
+79-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-33:55
+80            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+80-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-126
+81            android:exported="false"
+81-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-37
+82            android:launchMode="singleInstance"
+82-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-48
+83            android:theme="@style/ThemeTransparent" />
+83-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-52
+84        <activity
+84-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-38:55
+85            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+85-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-120
+86            android:exported="false"
+86-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-37
+87            android:launchMode="singleInstance"
+87-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-48
+88            android:theme="@style/ThemeTransparent" />
+88-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-52
+89
+90        <receiver
+90-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:40
+91            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+91-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-111
+92            android:enabled="true"
+92-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-35
+93            android:exported="false" />
+93-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-37
+94
+95        <meta-data
+95-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-47:36
+96            android:name="io.flutter.embedded_views_preview"
+96-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-61
+97            android:value="true" />
+97-->[:flutter_inappwebview] /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-33
+98
+99        <activity
+99-->[:url_launcher_android] /home/alrhazes/Documents/dadipay_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+100            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+100-->[:url_launcher_android] /home/alrhazes/Documents/dadipay_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+101            android:exported="false"
+101-->[:url_launcher_android] /home/alrhazes/Documents/dadipay_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+102            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+102-->[:url_launcher_android] /home/alrhazes/Documents/dadipay_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+103
+104        <uses-library
+104-->[androidx.window:window:1.0.0-beta04] /home/alrhazes/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+105            android:name="androidx.window.extensions"
+105-->[androidx.window:window:1.0.0-beta04] /home/alrhazes/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+106            android:required="false" />
+106-->[androidx.window:window:1.0.0-beta04] /home/alrhazes/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+107        <uses-library
+107-->[androidx.window:window:1.0.0-beta04] /home/alrhazes/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+108            android:name="androidx.window.sidecar"
+108-->[androidx.window:window:1.0.0-beta04] /home/alrhazes/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+109            android:required="false" />
+109-->[androidx.window:window:1.0.0-beta04] /home/alrhazes/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+110
+111        <provider
+111-->[androidx.emoji2:emoji2:1.2.0] /home/alrhazes/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+112            android:name="androidx.startup.InitializationProvider"
+112-->[androidx.emoji2:emoji2:1.2.0] /home/alrhazes/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+113            android:authorities="com.example.dadipay_app.androidx-startup"
+113-->[androidx.emoji2:emoji2:1.2.0] /home/alrhazes/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+114            android:exported="false" >
+114-->[androidx.emoji2:emoji2:1.2.0] /home/alrhazes/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+115            <meta-data
+115-->[androidx.emoji2:emoji2:1.2.0] /home/alrhazes/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+116                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+116-->[androidx.emoji2:emoji2:1.2.0] /home/alrhazes/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+117                android:value="androidx.startup" />
+117-->[androidx.emoji2:emoji2:1.2.0] /home/alrhazes/.gradle/caches/transforms-3/e04bc3769bedd8dd6f8ca688986b0355/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+118            <meta-data
+118-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/alrhazes/.gradle/caches/transforms-3/8c1e738388b632b23acecc5b0cf3e292/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+119                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+119-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/alrhazes/.gradle/caches/transforms-3/8c1e738388b632b23acecc5b0cf3e292/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+120                android:value="androidx.startup" />
+120-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/alrhazes/.gradle/caches/transforms-3/8c1e738388b632b23acecc5b0cf3e292/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+121        </provider>
+122    </application>
+123
+124</manifest>
