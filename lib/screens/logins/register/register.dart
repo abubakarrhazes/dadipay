@@ -81,6 +81,8 @@ class _RegisterState extends State<Register> {
     super.dispose();
   }
 
+  http.Response? response;
+
   Future<void> Register(RegisterModel user, BuildContext context) async {
     try {
       UserModel userModel = UserModel(
@@ -99,14 +101,14 @@ class _RegisterState extends State<Register> {
         email: user.email,
         passwordConfirmation: user.passwordConfirmation,
       );
-      http.Response response = await http.post(Uri.parse('$baseUrl/register'),
+      response = await http.post(Uri.parse('$baseUrl/register'),
           body: jsonEncode(userModel.toJson()),
           headers: {
             'Accept': 'application/vnd.api+json',
             'Content-Type': 'application/json',
           });
-      if (response.statusCode == 200) {
-        final responseData = json.decode(response.body);
+      if (response!.statusCode == 200) {
+        final responseData = json.decode(response!.body);
         final sms_pin = responseData['data']['user']['sms_pinId'] as String;
         final id = responseData['data']['user']['u_id'] as String;
         final phone = responseData['data']['user']['phone_number'] as String;
@@ -124,13 +126,11 @@ class _RegisterState extends State<Register> {
         print('Phone $phone_number');
         _navigateToVerifyOtp();
       } else {
-        final errorResponse = json.decode(response.body)['message'];
-        print(errorResponse);
         print(user.toJson());
-        utils.showSnackBar(context, errorResponse);
       }
     } catch (e) {
-      utils.showSnackBar(context, e.toString());
+      final errorResponse = json.decode(response!.body)['message'];
+      utils.showErrorDialog(context, 'Error', errorResponse);
     }
   }
 

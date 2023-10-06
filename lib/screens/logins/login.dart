@@ -49,17 +49,18 @@ class _LoginState extends State<Login> {
   final _login_formKey = GlobalKey<FormState>();
 
   String? userToken;
+  http.Response? response;
 
   Future<void> Login(LogInModel user, BuildContext context) async {
     try {
-      http.Response response = await http.post(Uri.parse('$baseUrl/login'),
+      response = await http.post(Uri.parse('$baseUrl/login'),
           body: jsonEncode(user.toJson()),
           headers: {
             'Accept': 'application/vnd.api+json',
             'Content-Type': 'application/json',
           });
-      if (response.statusCode == 200) {
-        final responseData = json.decode(response.body);
+      if (response!.statusCode == 200) {
+        final responseData = json.decode(response!.body);
         final token = responseData['data']['token'] as String;
         setState(() {
           userToken = token;
@@ -71,13 +72,14 @@ class _LoginState extends State<Login> {
         print(' Responses Data: $responseData');
         //After Succesfull Request
       } else {
-        final errorResponse = json.decode(response.body)['message'];
+        final errorResponse = json.decode(response!.body)['message'];
         utils.showErrorDialog(context, 'Error', errorResponse);
-        print(response.statusCode);
+        print(response!.statusCode);
         print(user.toJson());
       }
     } catch (e) {
-      utils.showSnackBar(context, e.toString());
+      final errorResponse = json.decode(response!.body)['message'];
+      utils.showErrorDialog(context, 'Error ', errorResponse);
     }
   }
 
@@ -239,9 +241,6 @@ class _LoginState extends State<Login> {
                                         if (_login_formKey.currentState!
                                             .validate()) {
                                           loginUser();
-                                        } else {
-                                          utils.showSnackBar(
-                                              context, 'Check Field ');
                                         }
                                       },
                                       text: 'Login',
