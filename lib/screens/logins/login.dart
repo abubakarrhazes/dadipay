@@ -77,7 +77,7 @@ class _LoginState extends State<Login> {
         print(user.toJson());
       }
     } catch (e) {
-      utils.showErrorDialog(context, 'Error', 'Check Your Details Properly');
+      utils.showSnackBar(context, e.toString());
     }
   }
 
