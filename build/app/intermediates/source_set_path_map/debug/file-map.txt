@@ -29,8 +29,8 @@ com.example.dadipay_app-mergeDebugResources-27 /home/alrhazes/Documents/dadipay_
 com.example.dadipay_app-merged_res-28 /home/alrhazes/Documents/dadipay_app/build/app/intermediates/merged_res/debug
 com.example.dadipay_app-packaged_res-29 /home/alrhazes/Documents/dadipay_app/build/connectivity_plus/intermediates/packaged_res/debug
 com.example.dadipay_app-packaged_res-30 /home/alrhazes/Documents/dadipay_app/build/flutter_inappwebview/intermediates/packaged_res/debug
-com.example.dadipay_app-packaged_res-31 /home/alrhazes/Documents/dadipay_app/build/flutter_native_splash/intermediates/packaged_res/debug
-com.example.dadipay_app-packaged_res-32 /home/alrhazes/Documents/dadipay_app/build/path_provider_android/intermediates/packaged_res/debug
+com.example.dadipay_app-packaged_res-31 /home/alrhazes/Documents/dadipay_app/build/path_provider_android/intermediates/packaged_res/debug
+com.example.dadipay_app-packaged_res-32 /home/alrhazes/Documents/dadipay_app/build/permission_handler_android/intermediates/packaged_res/debug
 com.example.dadipay_app-packaged_res-33 /home/alrhazes/Documents/dadipay_app/build/shared_preferences_android/intermediates/packaged_res/debug
 com.example.dadipay_app-packaged_res-34 /home/alrhazes/Documents/dadipay_app/build/url_launcher_android/intermediates/packaged_res/debug
 com.example.dadipay_app-packaged_res-35 /home/alrhazes/Documents/dadipay_app/build/webview_flutter_android/intermediates/packaged_res/debug
