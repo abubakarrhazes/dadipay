@@ -130,7 +130,7 @@ class _RegisterState extends State<Register> {
       }
     } catch (e) {
       final errorResponse = json.decode(response!.body)['message'];
-      utils.showErrorDialog(context, 'Error', errorResponse);
+      utils.showToast(context, errorResponse);
     }
   }
 

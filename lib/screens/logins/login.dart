@@ -79,7 +79,7 @@ class _LoginState extends State<Login> {
       }
     } catch (e) {
       final errorResponse = json.decode(response!.body)['message'];
-      utils.showErrorDialog(context, 'Error ', errorResponse);
+      utils.showToast(context, errorResponse);
     }
   }
 
@@ -180,7 +180,7 @@ class _LoginState extends State<Login> {
                                         style: GoogleFonts.poppins(
                                           textStyle: TextStyle(
                                               fontSize: 15,
-                                              fontWeight: FontWeight.bold,
+                                              fontWeight: FontWeight.normal,
                                               color: gray600),
                                         )),
                                   ),
@@ -212,7 +212,7 @@ class _LoginState extends State<Login> {
                                         style: GoogleFonts.poppins(
                                           textStyle: TextStyle(
                                               fontSize: 15,
-                                              fontWeight: FontWeight.bold,
+                                              fontWeight: FontWeight.normal,
                                               color: gray600),
                                         )),
                                   ),
@@ -257,23 +257,30 @@ class _LoginState extends State<Login> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           TextButton(
-                              onPressed: () {
-                                Navigator.pushNamed(context, appRoutes.forgot);
-                              },
-                              child: const Text('Reset Password',
-                                  style: TextStyle(
-                                      color: KprimaryColor,
-                                      fontWeight: FontWeight.bold))),
+                            onPressed: () {
+                              Navigator.pushNamed(context, appRoutes.forgot);
+                            },
+                            child: Text(
+                              'Reset Password',
+                              style: GoogleFonts.poppins(
+                                textStyle: TextStyle(
+                                    color: KprimaryColor,
+                                    fontWeight: FontWeight.bold),
+                              ),
+                            ),
+                          ),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.start,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Padding(
                                 padding: const EdgeInsets.only(left: 7),
-                                child: const Text(
-                                  'Don\'t have an account? ',
-                                  style: TextStyle(color: Colors.black),
-                                ),
+                                child: Text('Don\'t have an account? ',
+                                    style: GoogleFonts.poppins(
+                                      textStyle: TextStyle(
+                                          color: Colors.black,
+                                          fontWeight: FontWeight.bold),
+                                    )),
                               ),
                               GestureDetector(
                                 onTap: () {

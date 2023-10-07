@@ -2,6 +2,7 @@
 
 import 'package:dadipay_app/routes/app_routes.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Utils {
   final AppRoutes appRoutes = AppRoutes();
@@ -31,6 +32,23 @@ class Utils {
           ],
         );
       },
+    );
+  }
+
+  void showToast(BuildContext context, String message) {
+    final scaffold = ScaffoldMessenger.of(context);
+    scaffold.showSnackBar(
+      SnackBar(
+        closeIconColor: Colors.red,
+        content: Text(
+          message,
+          style: GoogleFonts.poppins(
+            textStyle: TextStyle(color: Colors.red, fontSize: 12),
+          ),
+        ),
+        action: SnackBarAction(
+            label: 'CLOSE', onPressed: scaffold.hideCurrentSnackBar),
+      ),
     );
   }
 
